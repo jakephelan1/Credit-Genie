@@ -1,5 +1,7 @@
 Created by: Jake Phelan & Daniel Sachs
 
+https://github.com/d3buggerdan
+https://github.com/jakephelan1
 
 # Credit Score Prediction Project
 This project is designed to train various machine learning models on a credit score database containing different information about individuals and their respective credit scores. It includes a GUI with a Flask backend to use the trained models for predicting a credit score based on user inputs. Additionally, it outputs a pie chart indicating each model's confidence in their predictions.
