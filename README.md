@@ -31,16 +31,14 @@ To set up and run this project locally, follow these steps:
 
 Clone the Repository
 
-```
-bash
+```bash
 git clone https://github.com/jakephelan1/credit-genie.git
 cd credit-genie
 ```
 
 Create a Virtual Environment
 
-```
-bash
+```bash
 python3 -m venv myenv
 source myenv/bin/activate
 ```
@@ -48,24 +46,21 @@ source myenv/bin/activate
 Install Dependencies
 Ensure you have Git LFS installed and configured:
 
-```
-bash
+```bash
 brew install git-lfs
 git lfs install
 ```
 
 Then install the Python dependencies:
 
-```
-bash
+```bash
 pip install -r requirements.txt
 ```
 
 Download Large Files
 If you have pushed large files using Git LFS, download them:
 
-```
-bash
+```bash
 git lfs pull
 ```
 
@@ -74,16 +69,14 @@ Place your dataset in the CSV/ directory with the name dataset.csv.
 
 Run Data Preprocessing and Model Training
 
-```
-bash
+```bash
 python filter_dataset.py
 python train_models.py
 ```
 
 Start the Flask Application
 
-```
-bash
+```bash
 python app.py
 ```
 
