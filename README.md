@@ -43,7 +43,7 @@ Matplotlib: Plotting library for visualizations
 FancyImpute: Advanced imputation of missing values
 
 ### Setup and Installation
-To set up and run this project locally, follow these steps:
+To set up and run this project locally, follow these steps. Note that steps 5 and 6 are optional and are included for model training reproducibility. If you only want to test the app, you can skip steps 5 and 6 as they are already done here:
 
 1. **Clone the Repository**
 
