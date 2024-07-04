@@ -7,6 +7,9 @@ https://github.com/d3buggerdan
 # Credit Score Prediction Project
 This project is designed to train various machine learning models on a credit score database containing different information about individuals and their respective credit scores. It includes a GUI with a Flask backend to use the trained models for predicting a credit score based on user inputs. Additionally, it outputs a pie chart indicating each model's confidence in their predictions.
 
+### Data Preperation
+We began with a messy dataset containing over 70,000 inputs. The initial data required extensive cleaning and management to make it suitable for training. This involved handling missing values, normalizing data, and transforming categorical variables. Through a rigorous data preprocessing phase, we created a new, clean dataset, which significantly improved the performance of our machine learning models.
+
 ### Features
 Trains multiple machine learning models on credit score data
 Predicts credit scores using a Flask-based web interface
