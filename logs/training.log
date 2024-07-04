@@ -1,0 +1,165 @@
+2024-07-02 14:33:53,660 - root - INFO - Engineered domain-specific features
+2024-07-02 14:33:54,967 - root - INFO - Applied Iterative Imputer for NaN values
+2024-07-02 14:33:54,970 - root - INFO - Converted integer/categorical features to integers
+2024-07-02 14:33:54,975 - root - INFO - Applied scaling using a standard scaler
+2024-07-02 14:33:55,099 - root - INFO - Applied SMOTE to handle class imbalance
+2024-07-02 14:34:02,083 - root - INFO - Feature Importances:
+                                   Feature  Importance
+11                              Credit_Mix    0.148150
+12                        Outstanding_Debt    0.075177
+6                            Interest_Rate    0.074164
+28                    Log_Outstanding_Debt    0.057421
+20                    Credit_Mix_Diversity    0.053272
+10                    Num_Credit_Inquiries    0.046306
+8                   Num_of_Delayed_Payment    0.038520
+5                          Num_Credit_Card    0.035818
+9                     Changed_Credit_Limit    0.033004
+17                    Debt_to_Income_Ratio    0.027650
+26                Debt_Income_Credit_Ratio    0.027470
+18                Credit_Utilization_Ratio    0.022508
+13                      Credit_History_Age    0.022139
+27                  Credit_Age_Limit_Ratio    0.022104
+24                    Debt_to_Credit_Ratio    0.020700
+4                        Num_Bank_Accounts    0.019459
+19              Monthly_Debt_Payment_Ratio    0.019437
+31   Credit_Inquiries_to_Credit_Card_Ratio    0.018742
+21                        Income_Stability    0.018100
+0                                      Age    0.018021
+22       Credit_Card_to_Bank_Account_Ratio    0.016988
+32  Credit_Inquiries_to_Bank_Account_Ratio    0.016971
+29                     Log_Monthly_Balance    0.016950
+25                 Credit_Card_Utilization    0.016523
+7                              Num_of_Loan    0.016413
+16                         Monthly_Balance    0.015841
+1                               Occupation    0.015329
+2                            Annual_Income    0.015313
+23                 Credit_Age_Income_Ratio    0.015243
+14                     Total_EMI_per_month    0.015222
+3                    Monthly_Inhand_Salary    0.014997
+30          Credit_Inquiries_to_Loan_Ratio    0.014887
+15                       Payment_Behaviour    0.011161
+2024-07-02 14:34:02,875 - root - INFO - Cumulative Feature Importances:
+                                   Feature  Importance  Cumulative_Importance
+11                              Credit_Mix    0.148150               0.148150
+12                        Outstanding_Debt    0.075177               0.223327
+6                            Interest_Rate    0.074164               0.297491
+28                    Log_Outstanding_Debt    0.057421               0.354912
+20                    Credit_Mix_Diversity    0.053272               0.408185
+10                    Num_Credit_Inquiries    0.046306               0.454491
+8                   Num_of_Delayed_Payment    0.038520               0.493011
+5                          Num_Credit_Card    0.035818               0.528829
+9                     Changed_Credit_Limit    0.033004               0.561834
+17                    Debt_to_Income_Ratio    0.027650               0.589484
+26                Debt_Income_Credit_Ratio    0.027470               0.616954
+18                Credit_Utilization_Ratio    0.022508               0.639462
+13                      Credit_History_Age    0.022139               0.661601
+27                  Credit_Age_Limit_Ratio    0.022104               0.683705
+24                    Debt_to_Credit_Ratio    0.020700               0.704405
+4                        Num_Bank_Accounts    0.019459               0.723864
+19              Monthly_Debt_Payment_Ratio    0.019437               0.743301
+31   Credit_Inquiries_to_Credit_Card_Ratio    0.018742               0.762043
+21                        Income_Stability    0.018100               0.780143
+0                                      Age    0.018021               0.798163
+22       Credit_Card_to_Bank_Account_Ratio    0.016988               0.815151
+32  Credit_Inquiries_to_Bank_Account_Ratio    0.016971               0.832122
+29                     Log_Monthly_Balance    0.016950               0.849072
+25                 Credit_Card_Utilization    0.016523               0.865595
+7                              Num_of_Loan    0.016413               0.882008
+16                         Monthly_Balance    0.015841               0.897849
+1                               Occupation    0.015329               0.913178
+2                            Annual_Income    0.015313               0.928491
+23                 Credit_Age_Income_Ratio    0.015243               0.943734
+14                     Total_EMI_per_month    0.015222               0.958955
+3                    Monthly_Inhand_Salary    0.014997               0.973952
+30          Credit_Inquiries_to_Loan_Ratio    0.014887               0.988839
+15                       Payment_Behaviour    0.011161               1.000000
+2024-07-02 14:34:03,140 - root - INFO - Features Dropped (threshold 0.9): ['Occupation' 'Annual_Income' 'Credit_Age_Income_Ratio'
+ 'Total_EMI_per_month' 'Monthly_Inhand_Salary'
+ 'Credit_Inquiries_to_Loan_Ratio' 'Payment_Behaviour']
+2024-07-02 15:22:04,962 - root - INFO - Fitting Keras model with optimal batch size: 128
+2024-07-02 15:22:13,818 - root - INFO - Keras NN validation accuracy: 0.7239999771118164
+2024-07-02 16:01:47,897 - root - INFO - Random Forest validation accuracy: 0.729
+2024-07-02 20:32:48,376 - root - INFO - Gradient Boosting validation accuracy: 0.743
+2024-07-03 00:39:07,446 - root - INFO - AdaBoost validation accuracy: 0.714
+2024-07-03 02:19:52,381 - root - INFO - SVM validation accuracy: 0.72
+2024-07-03 02:19:52,789 - root - INFO - KERAS Classification Report:
+2024-07-03 02:19:52,795 - root - INFO -               precision    recall  f1-score   support
+
+           0       0.65      0.77      0.70       723
+           1       0.91      0.65      0.76      1367
+           2       0.55      0.90      0.68       410
+
+    accuracy                           0.72      2500
+   macro avg       0.70      0.77      0.71      2500
+weighted avg       0.78      0.72      0.73      2500
+
+2024-07-03 02:19:52,959 - root - INFO - RF Classification Report:
+2024-07-03 02:19:52,964 - root - INFO -               precision    recall  f1-score   support
+
+           0       0.69      0.70      0.70       723
+           1       0.84      0.74      0.78      1367
+           2       0.56      0.76      0.65       410
+
+    accuracy                           0.73      2500
+   macro avg       0.70      0.73      0.71      2500
+weighted avg       0.75      0.73      0.74      2500
+
+2024-07-03 02:19:53,320 - root - INFO - GB Classification Report:
+2024-07-03 02:19:53,325 - root - INFO -               precision    recall  f1-score   support
+
+           0       0.70      0.70      0.70       723
+           1       0.82      0.76      0.79      1367
+           2       0.58      0.73      0.64       410
+
+    accuracy                           0.74      2500
+   macro avg       0.70      0.73      0.71      2500
+weighted avg       0.75      0.74      0.74      2500
+
+2024-07-03 02:19:54,432 - root - INFO - SVM Classification Report:
+2024-07-03 02:19:54,437 - root - INFO -               precision    recall  f1-score   support
+
+           0       0.64      0.74      0.69       723
+           1       0.91      0.62      0.74      1367
+           2       0.53      0.94      0.68       410
+
+    accuracy                           0.71      2500
+   macro avg       0.69      0.77      0.70      2500
+weighted avg       0.77      0.71      0.71      2500
+
+2024-07-03 02:19:54,580 - root - INFO - ADA Classification Report:
+2024-07-03 02:19:54,585 - root - INFO -               precision    recall  f1-score   support
+
+           0       0.69      0.66      0.67       723
+           1       0.81      0.75      0.78      1367
+           2       0.57      0.74      0.64       410
+
+    accuracy                           0.72      2500
+   macro avg       0.69      0.72      0.70      2500
+weighted avg       0.73      0.72      0.73      2500
+
+2024-07-03 02:19:54,634 - root - INFO - Best base model: gb
+2024-07-03 05:50:19,596 - root - INFO - Voting validation accuracy: 0.73
+2024-07-03 15:42:22,537 - root - INFO - Stacking validation accuracy: 0.726
+2024-07-03 15:42:24,313 - root - INFO - VOTING Classification Report:
+2024-07-03 15:42:24,318 - root - INFO -               precision    recall  f1-score   support
+
+           0       0.70      0.70      0.70       723
+           1       0.84      0.74      0.79      1367
+           2       0.56      0.78      0.65       410
+
+    accuracy                           0.73      2500
+   macro avg       0.70      0.74      0.71      2500
+weighted avg       0.75      0.73      0.74      2500
+
+2024-07-03 15:42:26,690 - root - INFO - STACKING Classification Report:
+2024-07-03 15:42:26,695 - root - INFO -               precision    recall  f1-score   support
+
+           0       0.68      0.70      0.69       723
+           1       0.81      0.76      0.79      1367
+           2       0.59      0.68      0.63       410
+
+    accuracy                           0.73      2500
+   macro avg       0.69      0.71      0.70      2500
+weighted avg       0.74      0.73      0.73      2500
+
+2024-07-03 15:42:27,171 - root - INFO - Ensemble Accuracies: {'voting': 0.7348, 'stacking': 0.7312}

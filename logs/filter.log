@@ -1,0 +1,686 @@
+2024-06-25 15:14:36,588 - root - INFO - Dataset loaded successfully
+2024-06-25 15:14:36,614 - root - INFO - Unnecessary columns dropped
+2024-06-25 15:14:41,745 - root - INFO - Data cleaning completed
+2024-06-25 15:14:41,774 - root - INFO - EMI filtering applied
+2024-06-25 15:14:41,807 - root - INFO - Outliers removed
+2024-06-25 15:14:41,838 - root - INFO - Duplicates dropped while keeping rows with most information
+2024-06-25 15:14:41,923 - root - INFO - Cleaned dataset saved to 'adjusted_dataset.csv'
+2024-07-02 12:57:08,097 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-02 12:57:08,097 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-02 12:57:08,098 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 12:57:09,172 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 12:57:09,187 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 12:58:46,399 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 12:58:46] "GET / HTTP/1.1" 200 -
+2024-07-02 12:58:46,468 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 12:58:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-02 12:58:46,617 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 12:58:46] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2024-07-02 12:58:46,618 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 12:58:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-02 12:58:46,627 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 12:58:46] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2024-07-02 12:58:55,853 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 12:58:55] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-02 13:01:09,137 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:01:09] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:01:09,154 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:01:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:01:09,155 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:01:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:01:09,165 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:01:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:01:09,238 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:01:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:05:59,516 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-02 13:05:59,713 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:06:06,928 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:06:06,940 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:06:16,235 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:06:16] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:06:16,336 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:06:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:06:16,336 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:06:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:06:16,361 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:06:16] "GET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-07-02 13:07:26,271 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-02 13:07:27,201 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:07:34,554 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:07:34,568 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:07:52,967 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-02 13:07:53,545 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:08:00,218 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:08:00,234 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:08:00,409 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:08:00] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:08:00,515 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:08:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:08:00,517 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:08:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:08:00,540 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:08:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:08:39,923 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-02 13:08:40,520 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:08:47,297 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:08:47,312 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:08:48,865 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:08:48] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:08:49,089 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:08:49] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:08:49,090 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:08:49] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:08:49,113 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:08:49] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:09:21,953 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-02 13:09:22,699 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:09:29,576 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:09:29,590 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:09:31,250 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:09:31] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:09:31,381 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:09:31] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:09:31,381 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:09:31] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:09:31,410 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:09:31] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:09:45,923 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-02 13:09:46,614 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:09:52,964 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:09:52,980 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:09:54,554 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:09:54] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:09:54,677 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:09:54] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:09:54,677 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:09:54] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:09:54,701 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:09:54] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:16:56,029 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:16:56] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-02 13:18:18,411 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-02 13:18:19,176 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:18:26,001 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:18:26,015 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:18:26,037 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:18:26] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-02 13:20:27,943 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:20:27] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:20:28,018 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:20:28] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:20:28,018 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:20:28] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:20:28,043 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:20:28] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:21:08,921 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/filter_dataset.py', reloading
+2024-07-02 13:21:09,662 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:21:16,223 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:21:16,238 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:21:17,895 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:21:17] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:21:17,985 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:21:17] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:21:17,985 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:21:17] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:21:18,004 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:21:18] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:32:39,151 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-02 13:32:39,151 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-02 13:32:39,152 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:32:44,122 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:32:44,135 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:32:57,306 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:32:57] "GET / HTTP/1.1" 200 -
+2024-07-02 13:32:57,372 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:32:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:33:07,568 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:33:07] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-02 13:45:09,056 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:45:09] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:45:09,224 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:45:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:45:09,225 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:45:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:45:09,261 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:45:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:46:50,434 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-02 13:46:51,312 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:46:58,922 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:46:58,934 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:47:00,575 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:47:00] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:47:00,861 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:47:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:47:00,862 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:47:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:47:00,902 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:47:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:48:46,636 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-02 13:48:47,297 - werkzeug - INFO -  * Restarting with stat
+2024-07-02 13:48:54,194 - werkzeug - WARNING -  * Debugger is active!
+2024-07-02 13:48:54,210 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-02 13:48:55,829 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:48:55] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:48:55,923 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:48:55] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:48:55,923 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:48:55] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:48:55,947 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:48:55] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:49:02,445 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:49:02] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:49:02,522 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:49:02] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:49:02,523 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:49:02] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:49:02,547 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:49:02] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 13:49:45,583 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:49:45] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-02 13:49:45,687 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:49:45] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-02 13:49:45,688 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:49:45] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-02 13:49:45,712 - werkzeug - INFO - 127.0.0.1 - - [02/Jul/2024 13:49:45] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-02 14:11:26,395 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/train_models.py', reloading
+2024-07-02 14:11:27,417 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 15:52:48,749 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 15:52:48,749 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-03 15:52:48,749 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 15:52:53,738 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 15:52:53,776 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 15:52:53,798 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 15:52:53] "GET / HTTP/1.1" 200 -
+2024-07-03 15:52:53,838 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 15:52:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 15:53:01,516 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 15:53:01] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 15:55:44,835 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 15:55:45,507 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 15:55:52,581 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 15:55:52,594 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 15:57:09,740 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 15:57:09] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 15:57:09,800 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 15:57:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 15:57:09,800 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 15:57:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 15:57:09,819 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 15:57:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 17:37:45,538 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:37:46,397 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:37:53,014 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:37:53,029 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:38:09,273 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:38:09,803 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:38:15,097 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:38:15,109 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:38:18,177 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:38:18,655 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:38:24,471 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:38:24,481 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:38:26,871 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:38:26] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 17:38:27,000 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:38:27] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 17:38:27,001 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:38:27] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 17:38:27,017 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:38:27] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 17:42:11,875 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:42:12,655 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:42:19,275 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:42:19,289 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:42:20,721 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:42:20] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 17:42:20,920 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:42:20] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 17:42:20,922 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:42:20] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 17:42:20,947 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:42:20] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 17:43:06,024 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:43:06,734 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:43:13,285 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:43:13,300 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:43:14,685 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:43:14] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 17:43:14,876 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:43:14] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 17:43:14,877 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:43:14] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 17:43:14,902 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:43:14] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 17:43:41,836 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:43:42,645 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:43:48,746 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:43:48,759 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:43:50,447 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:43:50] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 17:43:50,561 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:43:50] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 17:43:50,561 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:43:50] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 17:43:50,585 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:43:50] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 17:47:36,860 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:47:37,660 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:47:44,323 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:47:44,335 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:47:51,861 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:47:51] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 17:47:51,932 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:47:51] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 17:47:51,932 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:47:51] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 17:47:51,954 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:47:51] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 17:48:10,841 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:48:11,615 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:48:17,939 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:48:17,953 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:48:19,590 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:48:19] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 17:48:19,668 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:48:19] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 17:48:19,668 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:48:19] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 17:48:19,679 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:48:19] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 17:56:47,995 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:56:48,806 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:56:55,418 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:56:55,430 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:57:18,728 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:57:19,305 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:57:24,651 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:57:24,664 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:57:26,519 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:57:26] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 17:57:26,604 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:57:26] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 17:57:26,604 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:57:26] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 17:57:26,627 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:57:26] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 17:57:35,905 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:57:36,631 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:57:43,324 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:57:43,337 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:57:45,120 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:57:45] "POST /submit HTTP/1.1" 200 -
+2024-07-03 17:58:08,791 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:58:09,499 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:58:15,274 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:58:15,286 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:58:17,192 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:58:17] "POST /submit HTTP/1.1" 200 -
+2024-07-03 17:58:38,810 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 17:58:39,442 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 17:58:45,156 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 17:58:45,167 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 17:58:47,031 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 17:58:47] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:00:40,873 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:00:41,574 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:00:48,287 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:00:48,298 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:01:16,687 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:01:17,181 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:01:22,394 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:01:22,406 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:01:24,291 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:01:24] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:01:29,584 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:01:30,127 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:01:35,310 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:01:35,320 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:01:37,347 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:01:37] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:01:44,505 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:01:45,078 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:01:50,259 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:01:50,270 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:01:52,057 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:01:52] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:02:04,451 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x16b7784c0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:02:04,535 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x16e44e3a0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:02:04,620 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:02:04] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:02:07,673 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:02:08,282 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:02:14,559 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:02:14,572 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:02:16,332 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:02:16] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:02:34,907 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:02:35,512 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:02:40,749 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:02:40,761 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:02:42,604 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:02:42] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 18:02:42,642 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:02:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 18:02:42,642 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:02:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 18:02:42,658 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:02:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 18:05:11,317 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:05:11,956 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:05:19,941 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:05:19,954 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:05:21,748 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:05:21] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 18:05:21,961 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:05:21] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-03 18:05:21,961 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:05:21] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-03 18:05:22,017 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:05:22] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 18:05:36,365 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:05:37,019 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:05:43,373 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:05:43,385 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:05:45,216 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:05:45] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:07:56,815 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:07:57,553 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:08:04,323 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:08:04,339 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:08:06,471 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:08:06] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:12:20,062 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:12:20,859 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:12:27,548 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:12:27,562 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:12:27,584 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:12:27] "GET / HTTP/1.1" 200 -
+2024-07-03 18:12:27,646 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:12:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 18:12:36,772 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:12:36] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 18:15:00,175 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:15:00] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:15:28,835 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:15:29,580 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:15:36,239 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:15:36,252 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:15:38,107 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:15:38] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:15:45,485 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:15:46,158 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:15:52,179 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:15:52,191 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:15:53,972 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:15:53] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:16:01,406 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:16:02,078 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:16:08,366 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:16:08,377 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:16:10,165 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:16:10] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:16:19,649 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:16:20,225 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:16:26,498 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:16:26,512 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:16:28,381 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:16:28] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:16:34,726 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:16:35,341 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:16:41,064 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:16:41,077 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:16:42,864 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:16:42] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:16:50,283 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:16:50,847 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:16:56,011 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:16:56,021 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:16:57,814 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:16:57] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:25:41,608 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:25:42,325 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:25:49,126 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:25:49,138 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:25:54,553 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:25:54] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:26:22,743 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:26:23,346 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:26:29,684 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:26:29,699 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:26:31,492 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:26:31] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:26:46,014 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:26:46,611 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:26:52,751 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:26:52,763 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:26:54,650 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:26:54] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:27:01,013 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:27:01,686 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:27:07,425 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:27:07,438 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:27:09,240 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:27:09] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:27:25,753 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:27:26,387 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:27:33,025 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:27:33,040 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:27:34,860 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:27:34] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:27:39,344 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:27:39] "GET / HTTP/1.1" 200 -
+2024-07-03 18:27:39,362 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:27:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 18:28:13,192 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:28:13] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 18:29:54,134 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x28ce2d700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:29:54,208 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x28ceee430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:29:54,277 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:29:54] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:30:20,307 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:30:20,977 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:30:27,592 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:30:27,606 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:30:29,417 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:30:29] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:30:38,864 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:30:39,488 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:30:45,780 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:30:45,793 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:30:47,609 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:30:47] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:30:56,035 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:30:56,632 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:31:02,403 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:31:02,415 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:31:04,218 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:31:04] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:31:09,548 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:31:10,130 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:31:15,562 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:31:15,574 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:31:17,335 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:31:17] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:31:22,755 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:31:23,252 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:31:28,464 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:31:28,477 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:31:30,224 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:31:30] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:31:34,611 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:31:35,224 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:31:40,466 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:31:40,480 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:31:42,272 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:31:42] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:32:04,168 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:32:04] "GET / HTTP/1.1" 200 -
+2024-07-03 18:32:04,193 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:32:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 18:32:12,961 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:32:12] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 18:36:29,336 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x179e0e700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:36:29,420 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x179e32430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:36:29,518 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:36:29] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:37:13,991 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:37:14,738 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:37:21,390 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:37:21,404 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:37:23,230 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:37:23] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:37:25,537 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:37:26,125 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:37:32,502 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:37:32,512 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:37:37,595 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:37:38,128 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:37:43,260 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:37:43,273 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:37:45,067 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:37:45] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:37:50,454 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:37:51,120 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:37:56,531 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:37:56,543 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:37:58,369 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:37:58] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:38:06,765 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:38:07,309 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:38:12,627 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:38:12,641 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:38:14,559 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:38:14] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:38:29,920 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:38:30,437 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:38:35,857 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:38:35,868 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:38:37,590 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:38:37] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:38:51,164 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:38:51,700 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:38:57,293 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:38:57,305 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:38:59,283 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:38:59] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:39:37,996 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:39:38,517 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:39:43,986 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:39:43,999 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:39:44,022 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:39:44] "GET / HTTP/1.1" 200 -
+2024-07-03 18:39:44,051 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:39:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 18:40:33,494 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:40:33] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 18:41:41,761 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:41:41] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:42:04,762 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:42:05,444 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:42:12,205 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:42:12,218 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:42:14,107 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:42:14] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:43:19,289 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:43:19,928 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:43:26,629 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:43:26,644 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:43:28,484 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:43:28] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:43:48,123 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:43:48,739 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:43:54,581 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:43:54,591 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:44:07,773 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:44:08,288 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:44:13,724 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:44:13,737 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:44:15,553 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:44:15] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 18:44:15,628 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:44:15] "GET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-07-03 18:44:15,630 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:44:15] "GET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-07-03 18:44:15,664 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:44:15] "GET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-07-03 18:44:21,914 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:44:22,483 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:44:27,723 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:44:27,734 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:44:29,559 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:44:29] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:44:38,661 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:44:38] "GET / HTTP/1.1" 200 -
+2024-07-03 18:44:38,679 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:44:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 18:44:50,332 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:44:50] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 18:46:06,658 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x16c578700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:46:06,738 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x16ace0430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:46:06,823 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:46:06] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:46:23,994 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:46:24,644 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:46:31,334 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:46:31,360 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:46:33,127 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:46:33] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:46:40,541 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:46:41,151 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:46:46,711 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:46:46,722 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:46:48,464 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:46:48] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:46:54,881 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:46:55,391 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:47:00,637 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:47:00,650 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:47:02,409 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:47:02] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:47:26,029 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:47:26] "GET / HTTP/1.1" 200 -
+2024-07-03 18:47:26,059 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:47:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 18:47:35,163 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:47:35] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 18:48:47,096 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x17b3e2700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:48:47,177 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x17af5b430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 18:48:47,261 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:48:47] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:49:03,897 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:49:04,530 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:49:11,387 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:49:11,401 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:49:13,204 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:49:13] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:49:25,682 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:49:26,213 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:49:31,983 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:49:31,994 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:49:33,832 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:49:33] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:49:39,154 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:49:39,705 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:49:44,994 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:49:45,009 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:49:46,766 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:49:46] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:49:52,176 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:49:52,678 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:49:58,148 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:49:58,161 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:49:59,909 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:49:59] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:50:16,565 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:50:17,088 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:50:22,449 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:50:22,460 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:50:24,216 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:50:24] "POST /submit HTTP/1.1" 200 -
+2024-07-03 18:50:29,632 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 18:50:30,189 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 18:50:35,580 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 18:50:35,595 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 18:50:37,344 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 18:50:37] "POST /submit HTTP/1.1" 200 -
+2024-07-03 20:07:44,817 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/train_models.py', reloading
+2024-07-03 20:07:45,597 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 20:07:52,845 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 20:07:52,859 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 20:07:53,892 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/train_models.py', reloading
+2024-07-03 20:07:54,435 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 20:07:59,631 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 20:07:59,641 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 20:10:13,501 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/train_models.py', reloading
+2024-07-03 20:10:14,088 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 20:10:20,231 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 20:10:20,246 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 20:22:23,499 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 20:22:24,205 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 20:22:31,060 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 20:22:31,072 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 20:22:52,959 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:22:52] "POST /submit HTTP/1.1" 200 -
+2024-07-03 20:31:36,859 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x16e016af0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 20:31:36,936 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x16bbe91f0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 20:31:37,028 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:31:37] "POST /submit HTTP/1.1" 200 -
+2024-07-03 20:34:57,798 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 20:34:58,636 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 20:35:05,491 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 20:35:05,502 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 20:35:07,550 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 20:35:08,123 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 20:35:13,873 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 20:35:13,884 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 20:35:15,411 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:35:15] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-07-03 20:35:15,648 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:35:15] "GET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-07-03 20:35:15,649 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:35:15] "GET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-07-03 20:35:15,685 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:35:15] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-03 20:37:00,499 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 20:37:01,095 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 20:37:08,579 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 20:37:08,592 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 20:37:10,519 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:37:10] "POST /submit HTTP/1.1" 200 -
+2024-07-03 20:37:25,488 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x297088b80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 20:37:25,574 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x28f7d8280> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 20:37:25,670 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:37:25] "POST /submit HTTP/1.1" 200 -
+2024-07-03 20:43:41,366 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 20:43:42,298 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 20:43:50,035 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 20:43:50,049 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 20:44:18,777 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:44:18] "POST /submit HTTP/1.1" 200 -
+2024-07-03 20:48:20,297 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 20:48:21,168 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 20:48:28,741 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 20:48:28,753 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 20:48:34,022 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 20:48:34] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:02:55,328 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 21:02:55,329 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-03 21:02:55,329 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 21:03:00,506 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 21:03:00,517 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 21:03:00,540 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:03:00] "GET / HTTP/1.1" 200 -
+2024-07-03 21:03:00,587 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:03:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 21:03:11,890 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:03:11] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 21:04:04,079 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:04:04] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:05:35,124 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 21:05:35,644 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 21:05:41,631 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 21:05:41,644 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 21:05:44,900 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:05:44] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:09:10,993 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 21:09:11,646 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 21:09:23,567 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 21:09:23,567 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-03 21:09:23,568 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 21:09:28,292 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 21:09:28,305 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 21:09:28,327 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:09:28] "GET / HTTP/1.1" 200 -
+2024-07-03 21:09:28,388 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:09:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 21:09:41,832 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:09:41] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 21:10:35,699 - app - INFO - Predictions: {'keras': {'category': 'Standard', 'probabilities': [6.30121721769683e-05, 0.9964067339897156, 0.003530241083353758]}, 'rf': {'category': 'Standard', 'probabilities': [0.3231707317073171, 0.4268292682926829, 0.25]}, 'svm': {'category': 'Standard', 'probabilities': [0.157571655613747, 0.8145103336256934, 0.027918010760559796]}, 'gb': {'category': 'Standard', 'probabilities': [0.05015300713663316, 0.9344029951533714, 0.01544399770999531]}, 'ada': {'category': 'Standard', 'probabilities': [0.32163347408756693, 0.3745147489151569, 0.3038517769972762]}, 'stacking': {'category': 'Standard', 'probabilities': [0.11145734376333828, 0.8435307068072717, 0.04501194942939001]}, 'voting': {'category': 'Standard', 'individual_predictions': {'keras': 'Standard', 'rf': 'Standard', 'gb': 'Standard', 'svm': 'Standard', 'ada': 'Standard'}}}
+2024-07-03 21:10:35,762 - app - INFO - Predictions: {'keras': {'category': 'Standard', 'probabilities': [6.30121721769683e-05, 0.9964067339897156, 0.003530241083353758]}, 'rf': {'category': 'Standard', 'probabilities': [0.3231707317073171, 0.4268292682926829, 0.25]}, 'svm': {'category': 'Standard', 'probabilities': [0.157571655613747, 0.8145103336256934, 0.027918010760559796]}, 'gb': {'category': 'Standard', 'probabilities': [0.05015300713663316, 0.9344029951533714, 0.01544399770999531]}, 'ada': {'category': 'Standard', 'probabilities': [0.32163347408756693, 0.3745147489151569, 0.3038517769972762]}, 'stacking': {'category': 'Standard', 'probabilities': [0.11145734376333828, 0.8435307068072717, 0.04501194942939001]}, 'voting': {'category': 'Standard', 'individual_predictions': {'keras': 'Standard', 'rf': 'Standard', 'gb': 'Standard', 'svm': 'Standard', 'ada': 'Standard'}}}
+2024-07-03 21:10:35,765 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:10:35] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:14:18,860 - tensorflow - WARNING - 5 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x292da2310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 21:14:18,940 - tensorflow - WARNING - 6 out of the last 7 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x292da24c0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 21:14:19,009 - app - INFO - Predictions: {'keras': {'category': 'Standard', 'probabilities': [6.30121721769683e-05, 0.9964067339897156, 0.003530241083353758]}, 'rf': {'category': 'Standard', 'probabilities': [0.3231707317073171, 0.4268292682926829, 0.25]}, 'svm': {'category': 'Standard', 'probabilities': [0.157571655613747, 0.8145103336256934, 0.027918010760559796]}, 'gb': {'category': 'Standard', 'probabilities': [0.05015300713663316, 0.9344029951533714, 0.01544399770999531]}, 'ada': {'category': 'Standard', 'probabilities': [0.32163347408756693, 0.3745147489151569, 0.3038517769972762]}, 'stacking': {'category': 'Standard', 'probabilities': [0.11145734376333828, 0.8435307068072717, 0.04501194942939001]}, 'voting': {'category': 'Standard', 'individual_predictions': {'keras': 'Standard', 'rf': 'Standard', 'gb': 'Standard', 'svm': 'Standard', 'ada': 'Standard'}}}
+2024-07-03 21:14:19,072 - app - INFO - Predictions: {'keras': {'category': 'Standard', 'probabilities': [6.30121721769683e-05, 0.9964067339897156, 0.003530241083353758]}, 'rf': {'category': 'Standard', 'probabilities': [0.3231707317073171, 0.4268292682926829, 0.25]}, 'svm': {'category': 'Standard', 'probabilities': [0.157571655613747, 0.8145103336256934, 0.027918010760559796]}, 'gb': {'category': 'Standard', 'probabilities': [0.05015300713663316, 0.9344029951533714, 0.01544399770999531]}, 'ada': {'category': 'Standard', 'probabilities': [0.32163347408756693, 0.3745147489151569, 0.3038517769972762]}, 'stacking': {'category': 'Standard', 'probabilities': [0.11145734376333828, 0.8435307068072717, 0.04501194942939001]}, 'voting': {'category': 'Standard', 'individual_predictions': {'keras': 'Standard', 'rf': 'Standard', 'gb': 'Standard', 'svm': 'Standard', 'ada': 'Standard'}}}
+2024-07-03 21:14:19,078 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:14:19] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:23:39,157 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 21:23:39,747 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 21:23:46,340 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 21:23:46,355 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 21:23:51,441 - app - INFO - Predictions: {'keras': {'category': 'Standard', 'probabilities': [6.30121721769683e-05, 0.9964067339897156, 0.003530241083353758]}, 'rf': {'category': 'Standard', 'probabilities': [0.3231707317073171, 0.4268292682926829, 0.25]}, 'svm': {'category': 'Standard', 'probabilities': [0.157571655613747, 0.8145103336256934, 0.027918010760559796]}, 'gb': {'category': 'Standard', 'probabilities': [0.05015300713663316, 0.9344029951533714, 0.01544399770999531]}, 'ada': {'category': 'Standard', 'probabilities': [0.32163347408756693, 0.3745147489151569, 0.3038517769972762]}, 'stacking': {'category': 'Standard', 'probabilities': [0.11145734376333828, 0.8435307068072717, 0.04501194942939001]}, 'voting': {'category': 'Standard', 'individual_predictions': {'keras': 'Standard', 'rf': 'Standard', 'gb': 'Standard', 'svm': 'Standard', 'ada': 'Standard'}}}
+2024-07-03 21:23:51,495 - app - INFO - Predictions: {'keras': {'category': 'Standard', 'probabilities': [6.30121721769683e-05, 0.9964067339897156, 0.003530241083353758]}, 'rf': {'category': 'Standard', 'probabilities': [0.3231707317073171, 0.4268292682926829, 0.25]}, 'svm': {'category': 'Standard', 'probabilities': [0.157571655613747, 0.8145103336256934, 0.027918010760559796]}, 'gb': {'category': 'Standard', 'probabilities': [0.05015300713663316, 0.9344029951533714, 0.01544399770999531]}, 'ada': {'category': 'Standard', 'probabilities': [0.32163347408756693, 0.3745147489151569, 0.3038517769972762]}, 'stacking': {'category': 'Standard', 'probabilities': [0.11145734376333828, 0.8435307068072717, 0.04501194942939001]}, 'voting': {'category': 'Standard', 'individual_predictions': {'keras': 'Standard', 'rf': 'Standard', 'gb': 'Standard', 'svm': 'Standard', 'ada': 'Standard'}}}
+2024-07-03 21:23:51,499 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:23:51] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:27:55,592 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 21:27:56,292 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 21:28:03,459 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 21:28:03,473 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 21:28:05,886 - app - INFO - Predictions: {'keras': {'category': 'Standard', 'probabilities': [6.30121721769683e-05, 0.9964067339897156, 0.003530241083353758]}, 'rf': {'category': 'Standard', 'probabilities': [0.3231707317073171, 0.4268292682926829, 0.25]}, 'svm': {'category': 'Standard', 'probabilities': [0.157571655613747, 0.8145103336256934, 0.027918010760559796]}, 'gb': {'category': 'Standard', 'probabilities': [0.05015300713663316, 0.9344029951533714, 0.01544399770999531]}, 'ada': {'category': 'Standard', 'probabilities': [0.32163347408756693, 0.3745147489151569, 0.3038517769972762]}, 'stacking': {'category': 'Standard', 'probabilities': [0.11145734376333828, 0.8435307068072717, 0.04501194942939001]}, 'voting': {'category': 'Standard', 'individual_predictions': {'keras': 'Standard', 'rf': 'Standard', 'gb': 'Standard', 'svm': 'Standard', 'ada': 'Standard'}}}
+2024-07-03 21:28:05,943 - app - INFO - Predictions: {'keras': {'category': 'Standard', 'probabilities': [6.30121721769683e-05, 0.9964067339897156, 0.003530241083353758]}, 'rf': {'category': 'Standard', 'probabilities': [0.3231707317073171, 0.4268292682926829, 0.25]}, 'svm': {'category': 'Standard', 'probabilities': [0.157571655613747, 0.8145103336256934, 0.027918010760559796]}, 'gb': {'category': 'Standard', 'probabilities': [0.05015300713663316, 0.9344029951533714, 0.01544399770999531]}, 'ada': {'category': 'Standard', 'probabilities': [0.32163347408756693, 0.3745147489151569, 0.3038517769972762]}, 'stacking': {'category': 'Standard', 'probabilities': [0.11145734376333828, 0.8435307068072717, 0.04501194942939001]}, 'voting': {'category': 'Standard', 'individual_predictions': {'keras': 'Standard', 'rf': 'Standard', 'gb': 'Standard', 'svm': 'Standard', 'ada': 'Standard'}}}
+2024-07-03 21:28:05,947 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:28:05] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:30:26,938 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 21:30:27,547 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 21:30:33,138 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 21:30:33,151 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 21:30:34,805 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:30:34] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:33:06,648 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 21:33:06,648 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-03 21:33:06,649 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 21:33:11,223 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 21:33:11,238 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 21:33:11,267 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:33:11] "GET / HTTP/1.1" 200 -
+2024-07-03 21:33:11,284 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:33:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 21:33:42,415 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:33:42] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 21:34:52,040 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:34:52] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:35:52,876 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:35:52] "GET / HTTP/1.1" 200 -
+2024-07-03 21:35:52,883 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:35:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 21:35:58,777 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:35:58] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 21:37:10,137 - tensorflow - WARNING - 5 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x2915a0790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 21:37:10,214 - tensorflow - WARNING - 6 out of the last 7 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x296b34430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 21:37:10,341 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:37:10] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:38:16,950 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:38:16] "GET / HTTP/1.1" 200 -
+2024-07-03 21:38:16,957 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:38:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 21:38:24,182 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:38:24] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 21:40:02,934 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:40:02] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:44:02,267 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:44:02] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:44:53,259 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:44:53] "GET / HTTP/1.1" 200 -
+2024-07-03 21:44:53,269 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:44:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 21:45:01,718 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:45:01] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 21:46:57,177 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:46:57] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:52:07,562 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:52:07] "GET / HTTP/1.1" 200 -
+2024-07-03 21:52:07,579 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:52:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 21:52:18,639 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:52:18] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 21:54:25,674 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:54:25] "POST /submit HTTP/1.1" 200 -
+2024-07-03 21:55:51,914 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:55:51] "GET / HTTP/1.1" 200 -
+2024-07-03 21:55:51,924 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 21:55:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 22:04:42,199 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 22:04:42] "GET /templates/info_page2.html HTTP/1.1" 200 -
+2024-07-03 22:06:23,249 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 22:06:23] "POST /submit HTTP/1.1" 200 -
+2024-07-03 22:54:58,841 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/app.py', reloading
+2024-07-03 22:54:59,571 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 22:55:33,710 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 22:55:33,710 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-03 22:55:33,711 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 22:55:38,223 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 22:55:38,239 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 22:55:39,647 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 22:55:39] "GET / HTTP/1.1" 200 -
+2024-07-03 22:55:39,707 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 22:55:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 22:55:46,128 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 22:55:46] "GET /templates/info_page.html HTTP/1.1" 200 -
+2024-07-03 22:57:10,506 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 22:57:10] "POST /submit HTTP/1.1" 200 -
+2024-07-03 22:57:58,037 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 22:57:58] "GET / HTTP/1.1" 200 -
+2024-07-03 22:57:58,048 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 22:57:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 23:09:26,784 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 23:09:26,784 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-03 23:09:26,785 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 23:09:31,489 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 23:09:31,504 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 23:09:36,634 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:09:36] "GET / HTTP/1.1" 200 -
+2024-07-03 23:09:36,654 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:09:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 23:09:43,220 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:09:43] "GET /templates/info_page.html HTTP/1.1" 200 -
+2024-07-03 23:11:03,616 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:11:03] "POST /submit HTTP/1.1" 200 -
+2024-07-03 23:14:59,329 - tensorflow - WARNING - 5 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x16fe8b790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 23:14:59,411 - tensorflow - WARNING - 6 out of the last 7 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x17111b430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-07-03 23:14:59,547 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:14:59] "POST /submit HTTP/1.1" 200 -
+2024-07-03 23:15:23,538 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:15:23] "GET / HTTP/1.1" 200 -
+2024-07-03 23:15:23,546 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:15:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-03 23:17:34,274 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:17:34] "GET /templates/info_page.html HTTP/1.1" 200 -
+2024-07-03 23:19:53,736 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:19:53] "POST /submit HTTP/1.1" 200 -
+2024-07-03 23:23:03,649 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/train_models.py', reloading
+2024-07-03 23:23:04,289 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 23:23:11,157 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 23:23:11,171 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 23:23:12,202 - werkzeug - INFO -  * Detected change in '/Users/jakephelan/Desktop/Credit Genie/filter_dataset.py', reloading
+2024-07-03 23:23:12,689 - werkzeug - INFO -  * Restarting with stat
+2024-07-03 23:23:17,685 - werkzeug - WARNING -  * Debugger is active!
+2024-07-03 23:23:17,697 - werkzeug - INFO -  * Debugger PIN: 548-621-030
+2024-07-03 23:24:06,218 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:24:06] "GET / HTTP/1.1" 200 -
+2024-07-03 23:24:06,294 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2024 23:24:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

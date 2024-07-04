@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Score Prediction Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .result, .model-select {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .chart-container {
+            width: 400px;
+            height: 400px;
+            margin: 20px auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Credit Score Prediction Dashboard</h1>
+        <div class="result">
+            Your predicted credit score category is: <strong id="category"></strong>
+        </div>
+        <div class="model-select">
+            <label for="model-dropdown">Select Model: </label>
+            <select id="model-dropdown">
+                <option value="voting">Voting (Default)</option>
+                <option value="keras">Keras</option>
+                <option value="rf">Random Forest</option>
+                <option value="gb">Gradient Boosting</option>
+                <option value="svm">SVM</option>
+                <option value="ada">AdaBoost</option>
+                <option value="stacking">Stacking</option>
+            </select>
+        </div>
+        <div id="confidence-chart" class="chart-container">
+            <canvas id="pieChart"></canvas>
+        </div>
+        <div id="voting-results" style="display:none;">
+            <h2>Voting Model Results</h2>
+            <table>
+                <tr>
+                    <th>Model</th>
+                    <th>Prediction</th>
+                    <th>Weight</th>
+                </tr>
+                <tr>
+                    <td>Keras</td>
+                    <td id="keras-pred"></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Random Forest</td>
+                    <td id="rf-pred"></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Gradient Boosting</td>
+                    <td id="gb-pred"></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>SVM</td>
+                    <td id="svm-pred"></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>AdaBoost</td>
+                    <td id="ada-pred"></td>
+                    <td>2</td>
+                </tr>
+            </table>
+        </div>
+        <a href="/" class="back-link">Back to Home</a>
+    </div>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const modelData = JSON.parse(document.getElementById('model-data').textContent);
+        let pieChart;
+
+        document.getElementById('model-dropdown').addEventListener('change', updateModelResults);
+
+        function updateModelResults() {
+            const selectedModel = document.getElementById('model-dropdown').value;
+            const category = document.getElementById('category');
+            const confidenceChart = document.getElementById('confidence-chart');
+            const votingResults = document.getElementById('voting-results');
+
+            if (modelData[selectedModel]) {
+                category.textContent = modelData[selectedModel].category;
+
+                if (selectedModel === 'voting') {
+                    confidenceChart.style.display = 'none';
+                    votingResults.style.display = 'block';
+                    updateVotingResults();
+                } else {
+                    confidenceChart.style.display = 'block';
+                    votingResults.style.display = 'none';
+                    updateConfidenceChart(selectedModel);
+                }
+            } else {
+                category.textContent = 'No data available for this model';
+                confidenceChart.style.display = 'none';
+                votingResults.style.display = 'none';
+            }
+        }
+
+        function updateConfidenceChart(model) {
+            const ctx = document.getElementById('pieChart').getContext('2d');
+            const data = modelData[model].probabilities;
+
+            if (pieChart) {
+                pieChart.destroy();
+            }
+
+            pieChart = new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['Poor', 'Standard', 'Good'],
+                    datasets: [{
+                        data: data,
+                        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: 'Model Confidence'
+                    }
+                }
+            });
+        }
+
+        function updateVotingResults() {
+            const predictions = modelData.voting.individual_predictions;
+            document.getElementById('keras-pred').textContent = predictions.keras;
+            document.getElementById('rf-pred').textContent = predictions.rf;
+            document.getElementById('gb-pred').textContent = predictions.gb;
+            document.getElementById('svm-pred').textContent = predictions.svm;
+            document.getElementById('ada-pred').textContent = predictions.ada;
+        }
+
+        updateModelResults();
+    });
+    </script>
+
+    <script id="model-data" type="application/json">
+        {{ model_data | safe }}
+    </script>
+</body>
+</html>
