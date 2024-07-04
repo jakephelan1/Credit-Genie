@@ -21,15 +21,25 @@ Provides logging for monitoring training and data processing
 
 ### Tools Used
 Python: Programming language for the backend and model training
+
 Flask: Micro web framework for the web application
+
 Pandas: Data manipulation and analysis
+
 NumPy: Numerical computing
+
 Scikit-Learn: Machine learning library
+
 Imbalanced-learn: Handling imbalanced datasets
+
 Keras and TensorFlow: Deep learning library
+
 Optuna: Hyperparameter optimization framework
+
 Joblib: Serialization of models and other objects
+
 Matplotlib: Plotting library for visualizations
+
 FancyImpute: Advanced imputation of missing values
 
 ### Setup and Installation
