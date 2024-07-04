@@ -70,7 +70,7 @@ git lfs pull
    
 Place your dataset in the CSV/ directory with the name dataset.csv.
 
-7. **Run Data Preprocessing and Model Training**
+6. **Run Data Preprocessing and Model Training**
 
 ```bash
 python filter_dataset.py
