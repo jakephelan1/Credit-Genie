@@ -96,7 +96,7 @@ python train_models.py
 7. **Start the Flask Application**
 
 ```bash
-python app.py
+python application.py
 ```
 
 ### Usage
