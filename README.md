@@ -1,6 +1,6 @@
 Created by: Jake Phelan & Daniel Sachs
 
-https://github.com/d3buggerdan
+###https://github.com/d3buggerdan
 https://github.com/jakephelan1
 
 # Credit Score Prediction Project
