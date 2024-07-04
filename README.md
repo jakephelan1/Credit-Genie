@@ -44,6 +44,7 @@ source myenv/bin/activate
 ```
 
 3. **Install Dependencies**
+   
 Ensure you have Git LFS installed and configured:
 
 ```bash
@@ -58,6 +59,7 @@ pip install -r requirements.txt
 ```
 
 4. **Download Large Files**
+   
 If you have pushed large files using Git LFS, download them:
 
 ```bash
@@ -65,9 +67,10 @@ git lfs pull
 ```
 
 5. **Set Up the Database and Data Files**
+   
 Place your dataset in the CSV/ directory with the name dataset.csv.
 
-6. **Run Data Preprocessing and Model Training**
+7. **Run Data Preprocessing and Model Training**
 
 ```bash
 python filter_dataset.py
