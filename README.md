@@ -1,3 +1,6 @@
+# Credit Score Prediction Project
+
+
 Created by: Jake Phelan & Daniel Sachs
 
 https://github.com/jakephelan1
@@ -7,8 +10,7 @@ https://github.com/d3buggerdan
 
 https://github.com/jakephelan1/credit-genie/assets/109681338/5ccb75b7-da85-4735-8f2c-c00aa8a3f5e1
 
-
-# Credit Score Prediction Project
+## Project Overview
 This project is designed to train various machine learning models on a credit score database containing different information about individuals and their respective credit scores. It includes a GUI with a Flask backend to use the trained models for predicting a credit score based on user inputs. Additionally, it outputs a pie chart indicating each model's confidence in their predictions.
 
 ### Data Preperation
@@ -46,7 +48,7 @@ Provides logging for monitoring training and data processing
 
 **FancyImpute:** Advanced imputation of missing values
 
-### Setup and Installation
+## Setup and Installation
 To set up and run this project locally, follow these steps. Note that steps 5 and 6 are optional and are included for model training reproducibility. If you only want to test the app, you can skip steps 5 and 6 as the models are already trained and saved in `trained_models`.
 
 1. **Clone the Repository**
@@ -103,5 +105,8 @@ python train_models.py
 python application.py
 ```
 
-### Usage
+## Usage
 Once the Flask application is running, open your web browser and go to http://127.0.0.1:5000/. You will see a form where you can input various personal and financial details. Upon submission, the application will predict your credit score and display a pie chart showing each model's confidence.
+
+## Note
+This project is for educational purposes only and is not gauranteed to be 100% accurate.
